@@ -1,0 +1,26 @@
+.apply{
+    text-align: center;
+    .inner-image{
+        width: 300px;
+        margin: 0 auto;
+        img{
+            width: 100%;
+            aspect-ratio: 2/1;
+            object-fit: contain;
+        }
+    }
+    h1,h2,p{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    h1{
+        color: red;
+    }
+}
+
+.form{
+    text-align: center;
+    .ant-form{
+        margin: 0 auto;
+    }
+}

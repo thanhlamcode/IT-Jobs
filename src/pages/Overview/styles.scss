@@ -1,0 +1,50 @@
+.overview{
+    margin: 20px;
+    color: #090a0b;
+
+    .number-job, .jobing, .allcv, .cvread{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 20px;
+        // height: 122.23;
+        aspect-ratio: 402/123;
+
+        p{
+            color: black;
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .number-job{
+        border-bottom: 5px solid #2D5ED0;
+    }
+
+    .jobing{
+        border-bottom: 5px solid #DC1A50;
+    }
+
+    .allcv{
+        border-bottom: 5px solid #F5B200;
+    }
+
+    .cvread{
+        border-bottom: 5px solid #0DBF76;
+    }
+
+    .chart1{
+        text-align: center;
+    }
+
+    .income{
+        margin: auto;
+
+        .progress{
+            margin-top: -100px;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.introduce {
+    margin: 0 20px;
+
+    Form{
+        margin: 0 auto;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .ant-tag {
+        font-size: 24px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .tag{
+        text-align: center;
+    }
+
+    h3{
+        font-size: 30px;
+        cursor: pointer;
+
+        span{
+            color: #DD3F24;
+        }
+    }
+}

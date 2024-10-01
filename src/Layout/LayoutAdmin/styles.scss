@@ -1,0 +1,59 @@
+.admin{
+    .header-admin{
+        display: flex;
+        background: white;
+    
+        .header-left{
+            width: 200px;
+            color: #007DCD;
+            font-weight: 1000;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+    
+            &--collapse{
+                width: 80px;
+            }
+        }
+    
+        .header-right{
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+    
+            .btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                Button{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .ant-layout-sider-children{
+        background: white;
+    }
+
+    .ant-layout-content{
+        background: white;
+    }
+    
+    .ant-layout-footer{
+        background: white;
+        text-align: center;
+    }
+    
+    .menu{
+        &--collapse{
+            width: 80px;
+        }
+    
+        .ant-menu{
+            width: 100%;
+        }
+    }
+}
