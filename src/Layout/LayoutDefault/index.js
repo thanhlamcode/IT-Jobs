@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button, Layout, Modal } from "antd";
 import "./styles.scss";
 import { Link, NavLink, Outlet, useNavigate } from "react-router-dom";
-import logo from "../../../src/image/snoopy.webp";
+import logo from "../../../src/image/logo.png";
 import { HomeOutlined, LogoutOutlined } from "@ant-design/icons";
 import { deleteCookie, getCookie } from "../../helpers/cookie";
 
@@ -52,10 +52,10 @@ function LayoutDefault() {
             ) : (
               <>
                 <Link to="login">
-                  <button className="btn-dn">Đăng nhập</button>
+                  <Button>Đăng Nhập</Button>
                 </Link>
                 <Link to="register">
-                  <button className="btn-dk">Đăng ký</button>
+                  <Button>Đăng Ký</Button>
                 </Link>
               </>
             )}
