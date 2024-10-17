@@ -100,7 +100,7 @@ function Register() {
       {contextHolderSameEmail}
       {contextHolderSamePhone}
       <div className="register">
-        <h1>Đăng ký</h1>
+        <h1>ĐĂNG KÝ</h1>
         <Form
           ref={formRef}
           {...formItemLayout}
