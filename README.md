@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# IT Jobs 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**IT Jobs** is a modern web application designed to streamline the process of job searching and recruitment in the tech industry. Built with cutting-edge technologies, the platform offers features tailored to the needs of job seekers and employers, ensuring a seamless and efficient experience for both sides.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Key Features 🔑
 
-### `npm start`
+- **For Job Seekers:**
+  - Browse and search for IT job openings based on skill sets, locations, and companies.
+  - Create and manage professional profiles with resumes.
+  - Apply for jobs directly through the platform.
+- **For Employers:**
+  - Post job listings and manage applications.
+  - Access candidate profiles and communicate directly.
+- **Other Features:**
+  - Real-time notifications for application updates.
+  - Dashboard analytics for job trends and activity.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used 🛠️
 
-### `npm test`
+- **Frontend:** ReactJS, Ant Design, Redux, React Router DOM.
+- **Styling:** SASS, Swiper.
+- **Charts:** Ant Design Charts.
+- **Utilities:** dotenv.
+- **Testing:** React Testing Library, Jest.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Installation 🚀
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### System Requirements
+- Node.js >= 14.0
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Steps to Install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/thanhlamcode/IT-Jobs.git
+   cd IT-Jobs
+   ```
 
-### `npm run eject`
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Configure environment**
+   Create a `.env` file in the root directory with the following variables:
+   ```env
+   REACT_APP_API_URL=your_api_url
+   REACT_APP_ENV=development
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Run the application**
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **Access the application**
+   Open your browser and navigate to: [http://localhost:3000](http://localhost:3000)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Contribution 🤝
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+We welcome contributions from the community! Here's how you can get involved:
+- Report issues or suggest features by creating an **Issue**.
+- Submit a **Pull Request** to contribute code improvements or new features.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## License 📜
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact 📧
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For inquiries or support, please contact:
+- **GitHub Issues:** [https://github.com/thanhlamcode/IT-Jobs/issues](https://github.com/thanhlamcode/IT-Jobs/issues)
+- **Email:** thanhlamcode@example.com
